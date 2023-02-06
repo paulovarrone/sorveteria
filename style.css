@@ -129,6 +129,14 @@ main p {
         transform: translateY(70px);
     }
 
+    50% {
+        opacity: 0.2;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
     100% {
         opacity: 1;
         transform: translateY(0);
