@@ -89,16 +89,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.cards .uno {
-    left: 180px;
-    bottom: 203px;
-}
-
-.cards .dos {
-    left: 180px;
-    bottom: 403px;
+    top: 16px;
+    right: 16px;
 }
 
 .cards {
