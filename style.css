@@ -61,7 +61,7 @@ main {
     position: relative;
 
     animation-name: downtop;
-    animation-duration: 700ms;
+    animation-duration: 1s;
 }
 
 .card span {
@@ -82,7 +82,7 @@ main {
     
 
     animation-name: topdown;
-    animation-duration: 1s;
+    animation-duration: 2s;
 
     width: 112px;
     height: 35px;
