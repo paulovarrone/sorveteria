@@ -70,13 +70,19 @@ main {
 
     color: #4A4E69;
     border-radius: 20px;
-    padding: 0 24px;
+    
     position: absolute;
     
-    height: 35px;
+    
 
     animation-name: topdown;
     animation-duration: 1s;
+
+    width: 112px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cards .uno {
