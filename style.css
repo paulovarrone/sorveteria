@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFF1FF;
+    max-width: 384px;
+    margin: 0 auto;
+}
+
+.page {
+    text-align: center;
+}
+
+
+header {
+    background: #8E9AAF;
+    width: 384px;
+    height: 279px;
+}
+
+header img {
+    margin-top: 32px;
+}
+
+header h1 {
+    background: #CBC0D3;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 34px;
+    margin-top: 32px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+main {
+    margin: 14px 32px 60px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    position: relative;
+}
+
+.card span {
+    background: #FEEAFA;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+   
+
+    letter-spacing: 0.05em;
+
+    color: #4A4E69;
+    border-radius: 20px;
+    padding: 0 24px;
+    position: absolute;
+    width: 125px;
+    height: 35px;
+}
+
+.cards .uno {
+    left: 180px;
+    bottom: 203px;
+}
+
+.cards .dos {
+    left: 180px;
+    bottom: 403px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main p {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    
+
+    
+    color: #23053A;
+
+    margin-bottom: 62px;
+}
