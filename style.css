@@ -53,6 +53,9 @@ main {
 
 .card {
     position: relative;
+
+    animation-name: downtop;
+    animation-duration: 700ms;
 }
 
 .card span {
@@ -71,6 +74,9 @@ main {
     position: absolute;
     width: 125px;
     height: 35px;
+
+    animation-name: topdown;
+    animation-duration: 1s;
 }
 
 .cards .uno {
@@ -100,4 +106,31 @@ main p {
     color: #23053A;
 
     margin-bottom: 62px;
+}
+
+
+@keyframes topdown {
+    
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes downtop { 
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
