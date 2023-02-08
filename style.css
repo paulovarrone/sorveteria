@@ -141,9 +141,6 @@ header p {
 
 main {
     margin: 64px 98px 50px;
-    
-    
-    
 }
 
 @media (max-width: 480px){
@@ -210,14 +207,14 @@ main {
 
 
 .cards {
-    display: flex;
+    display: grid;
     
     gap: 32px;
 }
 
 @media (max-width: 480px) {
     .cards {
-        flex-direction: column;
+        
     }
 }
 
