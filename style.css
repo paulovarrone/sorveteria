@@ -204,7 +204,13 @@ main {
     }
 }
 
-
+.cards img:hover {
+    
+        transform: scale(1.05);
+        opacity: 0.7;
+        
+  
+}
 
 .cards {
     display: grid;
