@@ -60,19 +60,14 @@ main {
     
 }
 
-.card1 {
-    display: none;
-}
-
-
-.card, .card1 {
+.card {
     position: relative;
 
     animation-name: downtop;
     animation-duration: 1s;
 }
 
-.card span, .card1 span {
+.card span {
     background: #FEEAFA;
     font-family: 'Staatliches', cursive;
     font-weight: 400;
