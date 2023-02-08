@@ -65,7 +65,7 @@ body {
 header {
     background: #8E9AAF;
     width: 100%;
-    max-width: 377px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
