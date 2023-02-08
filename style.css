@@ -64,7 +64,7 @@ body {
 
 header {
     background: #8E9AAF;
-    width: 110%;
+    width: 100%;
     max-width: 377px;
     display: flex;
     flex-direction: column;
