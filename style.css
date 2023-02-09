@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-
+/*hi*/
 html, .page, body {
     height: 100%;
+    
 }
 
 @media (max-width: 480px) {
